@@ -24,13 +24,13 @@ class _MyAppState extends State<MyApp> {
         body: Center(
             child: Column(
           children: <Widget>[
-            FlatButton(
+            TextButton(
               child: Text("Enable privacy screen"),
               onPressed: () async {
                 await FlutterPrivacyScreen.enablePrivacyScreen();
               },
             ),
-            FlatButton(
+            TextButton(
               child: Text("Disable privacy screen"),
               onPressed: () async {
                 await FlutterPrivacyScreen.disablePrivacyScreen();

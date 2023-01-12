@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="NONE" />
   </component>
@@ -44,9 +49,11 @@
     <option name="testRunner" value="GRADLE" />
     <option name="delegatedBuild" value="true" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[VirtualDevicePath@/home/jeroentrappers/.android/avd/Copy_of_Pixel_2_XL_API_23.avd]" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="1srFXv1OI5sqZ2Ql24J2UkUeC40" />
   <component name="ProjectViewState">
@@ -57,11 +64,18 @@
     <option name="showVisibilityIcons" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="cidr.known.project.marker" value="true" />
     <property name="dart.analysis.tool.window.force.activate" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="io.flutter.reload.alreadyRun" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/example/android" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -88,28 +102,5 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="744" y="320" key="FileChooserDialogImpl" timestamp="1621622997183">
-      <screen x="0" y="48" width="1920" height="1032" />
-    </state>
-    <state x="744" y="320" key="FileChooserDialogImpl/0.48.1920.1032@0.48.1920.1032" timestamp="1621622997183" />
-    <state width="1874" height="466" key="GridCell.Tab.0.bottom" timestamp="1621622999922">
-      <screen x="0" y="48" width="1920" height="1032" />
-    </state>
-    <state width="1874" height="466" key="GridCell.Tab.0.bottom/0.48.1920.1032@0.48.1920.1032" timestamp="1621622999922" />
-    <state width="1874" height="466" key="GridCell.Tab.0.center" timestamp="1621622999921">
-      <screen x="0" y="48" width="1920" height="1032" />
-    </state>
-    <state width="1874" height="466" key="GridCell.Tab.0.center/0.48.1920.1032@0.48.1920.1032" timestamp="1621622999921" />
-    <state width="1874" height="466" key="GridCell.Tab.0.left" timestamp="1621622999920">
-      <screen x="0" y="48" width="1920" height="1032" />
-    </state>
-    <state width="1874" height="466" key="GridCell.Tab.0.left/0.48.1920.1032@0.48.1920.1032" timestamp="1621622999920" />
-    <state width="1874" height="466" key="GridCell.Tab.0.right" timestamp="1621622999922">
-      <screen x="0" y="48" width="1920" height="1032" />
-    </state>
-    <state width="1874" height="466" key="GridCell.Tab.0.right/0.48.1920.1032@0.48.1920.1032" timestamp="1621622999922" />
   </component>
 </project>
