@@ -12,8 +12,8 @@ public class SwiftFlutterPrivacyScreenPlugin: NSObject, FlutterPlugin {
         
         // register events.
         let notificationCenter = NotificationCenter.default
-        notificationCenter.addObserver(self, selector: #selector(appMovedToBackground(_:)), name: UIApplication.willResignActiveNotification, object: nil)
-        notificationCenter.addObserver(self, selector: #selector(appResumed(_:)), name: UIApplication.didBecomeActiveNotification, object: nil)
+        notificationCenter.addObserver(self, selector: #selector(appMovedToBackground(_:)), name: NSNotification.Name.UIApplicationWillResignActive, object: nil)
+        notificationCenter.addObserver(self, selector: #selector(appResumed(_:)), name: NSNotification.Name.UIApplicationDidBecomeActive, object: nil)
     }
     
     @objc static func appMovedToBackground(_ notification:Notification) {

@@ -1,3 +1,7 @@
+## 1.3.1
+
+* Update android dependencies, fix ios issue
+
 ## 1.2.0
 
 * Support null safety.

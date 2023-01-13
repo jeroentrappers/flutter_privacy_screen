@@ -1,6 +1,6 @@
 name: flutter_privacy_screen
 description: A flutter plugin that blurs / blacks the screen in the task manager.
-version: 1.3.0
+version: 1.3.1
 homepage: https://github.com/jeroentrappers/flutter_privacy_screen
 
 environment:
